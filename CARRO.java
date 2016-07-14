@@ -75,7 +75,7 @@ public class CARRO extends Driver{
 		frame.getContentPane().add(rdbtnEncendido);
 		
 		
-		rdbtnAmfm = new JRadioButton("AM/FM");
+		rdbtnAmfm = new JRadioButton("AM");
 		rdbtnAmfm.setBounds(6, 33, 109, 23);
 		frame.getContentPane().add(rdbtnAmfm);
 		rdbtnAmfm.addActionListener(new Listener());
