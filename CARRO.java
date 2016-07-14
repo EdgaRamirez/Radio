@@ -199,9 +199,19 @@ public class CARRO extends Driver{
 					
 					if (e.getSource()==rdbtnAmfm){
 						AM_FM();
+						
 						if(power==true){
-						textField.setText(String.valueOf(Tune));
-						}
+							
+							if(Tune_Type==true){
+							textField.setText(String.valueOf(Tune));
+							rdbtnAmfm.setText("FM");
+							}
+							}
+							
+							if(Tune_Type==false){
+							rdbtnAmfm.setText("AM");
+							textField.setText(String.valueOf(Tune));
+							}
 							
 					}
 					
