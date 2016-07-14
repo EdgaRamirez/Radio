@@ -12,7 +12,7 @@ import java.awt.Font;
 import javax.swing.SwingConstants;
 
 import javax.swing.JLabel;
-//hola Lynette hjj
+//hola Lynette esto es una prueba
 public class CARRO extends Driver{
 
 	private JFrame frame;
